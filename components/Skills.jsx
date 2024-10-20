@@ -9,7 +9,7 @@ import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import NodeJS from '../public/assets/skills/node.png'
-import Flutter from '../public/assets/skills/flutter.png'
+import Flutter from '../public/assets/skills/Flutter.png'
 import Python from '../public/assets/skills/python.png';
 import MongoDB from '../public/assets/skills/mongo.png';
 import TypeScript from '../public/assets/skills/typescript.png';
