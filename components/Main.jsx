@@ -3,11 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import {Cursor, useTypewriter} from "react-simple-typewriter";
-import BgCircles from './BgCircles';
+import { FaGithub } from 'react-icons/fa';
 import Spline from './Spline.jsx';
-import Word from "./Word";
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center z-10'>
