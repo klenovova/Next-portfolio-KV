@@ -2,8 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-![Neel-Full-Stack-Developer](https://user-images.githubusercontent.com/53113741/209195580-3ee071b3-86a5-461f-85a2-33d0ab7b6761.png)
-
 
 First, run the development server:
 
