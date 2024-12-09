@@ -2,9 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import propertyImg from '../public/assets/projects/SpaceTravel.png';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import Game1 from '../public/assets/projects/game1.png'
+import Game2 from '../public/assets/projects/tank.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
+import riding_share_android from '../public/assets/projects/riding_share_android.png'
+import hospital from '../public/assets/projects/hospital.png'
+import parking from '../public/assets/projects/parking.png'
 import ProjectItem from './ProjectItem';
 import {motion} from "framer-motion";
 
@@ -35,13 +39,6 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
-          />
-          <ProjectItem
             title='Twitch UI'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
@@ -49,7 +46,40 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Space Travel'
+            title='Dream Game'
+            backgroundImg={Game1}
+            projectUrl='/game1'
+            tech='Swift'
+
+          />
+          <ProjectItem
+            title='Tank Game'
+            backgroundImg={Game2}
+            projectUrl='/game2'
+            tech='Unity'
+
+          />
+          
+          <ProjectItem
+            title='Riding Share'
+            backgroundImg={riding_share_android}
+            projectUrl='/riding_share_android'
+            tech='Object-C'
+          />
+          <ProjectItem
+            title='Hospital App'
+            backgroundImg={hospital}
+            projectUrl='/hospital'
+            tech='React Native'
+          />
+          <ProjectItem
+            title='Parking App'
+            backgroundImg={parking}
+            projectUrl='/parking'
+            tech='Flutter'
+          />
+          <ProjectItem
+            title='Space'
             backgroundImg={propertyImg}
             projectUrl='/property'
             tech='React JS'
