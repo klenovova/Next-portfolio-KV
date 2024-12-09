@@ -39,7 +39,7 @@ const netflix = () => {
           <h2>Overview</h2>
           <p>
             For your dream.
-          I made this game in Swift for iOS. This game improves children's IQ and kills boring timeDive into the action with breathtaking graphics, realistic gameplay, and fierce competition – all from the palm of your hand.
+          I made this game in Swift for iOS. This game improves children&apos; IQ and kills boring timeDive into the action with breathtaking graphics, realistic gameplay, and fierce competition – all from the palm of your hand.
           </p>
           <a
             href=''
